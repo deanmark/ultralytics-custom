@@ -13,7 +13,7 @@ The most common method for adding custom code to the Ultralytics codebase, is by
 The boilerplate code contains a simple extension, that includes adding a textual indication whenever the epoch has currently achieved the best fitness score. This is done by printing `(*) best` while training.
 
 # Installation
-The functionality depends on a PR currently pending in the Ultralytics repository. These changes can be previewed here:
+The functionality depends on a [PR](https://github.com/ultralytics/ultralytics/pull/8298) currently pending in the Ultralytics repository. These changes can be previewed here:
 ```bash
 git clone -b extend-cli https://github.com/deanmark/ultralytics.git
 ```
